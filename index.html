@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1300c3a865.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/Rittik.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#credentials">Credentials</a></li>
+                <li><a href="#contact-details">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!--------------------------------------------------About(Introduction)------------------------------------------------>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/profile.jpg" class="profile">
+            </div>
+            <div class="about-col-2">
+                <h1 class="title">
+                    Introduction
+                <h1>
+                <p class="sub-title">
+                    Highly motivated individual with experience in developing and implementing software solutions. Skilled in object-oriented programming such as Python, JavaScript, C/C++, web development, database technologies and computation. Also, have experience in Artificial Intelligence (AI) using Matlab and Python. Excellent problem-solver and a great communicator with the ability to deliver high quality projects on time in both individual and team settings.
+                </p>
+                <div class="about-col-2-div">
+                    <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                </div>
+                <div class="about-col-2-contents active-content" id="Education">
+                    <ul>
+                        <li><span>2020 - 2023</span><br>BENG(HONS) in Electronics Engineering from University of Portsmouth (U.K)</li>
+                        <li><span>2017 - 2019</span><br>A LEVELS from Aditya Academy (West Bengal, India) in Science</li>
+                    </ul>
+                </div>
+                 <div class="about-col-2-contents" id="Experience">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>SOFTWARE DEVELOPER INTERN at KENJA K.K. (Tokyo)</li>
+                        <li><span>Roles & Reponsibilities:-</span></li>
+                        <li>1. To Write well-designed, testable code.</li>
+                        <li>2. Learn best agile practices to design and develop software solutions.</li>
+                        <li>3. Consult with my mentor and other departments on project status, proposals and technical issues, such as software system design and maintenance.</li>
+                    </ul>
+                </div>
+                <div class="about-col-2-contents" id="Skills">
+                    <ul>
+                        <li>Fluency in C, C++</li>
+                        <li>JavaScript </li>
+                        <li>HTML/CSS</li>
+                        <li>Python</li>
+                        <li>Django Framework</li>
+                        <li>React Framework</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------------------------------------(Projects)-------------------------------------------------------->
+
+<div id="projects">
+    <div class="container">
+        <h1> My Project Works </h1>
+        <div class="projects-list">
+            <div class="resources active-resource">
+                <i class="fa-brands fa-python"></i>
+                <h2> LogIn System </h2>
+                <p> Built a LogIn System in Python using Django framework where users can SignUp and can do SignIn confirming their SignUp details. </p>
+                <a href="https://log-in-system-django.vercel.app/">Learn more</a>
+            </div>
+            <div class="resources active-resource">
+                <i class="fa-solid fa-c"></i>
+                <h2> IOT App</h2>
+                <p> Developed a active control system using C which can read data captured from IOT devices and according to the captured data, the system can then takes decisions independently to activate/deactivate certain devices within the user home.</p>
+                <a href="https://github.com/GRINDER101/Internet_of_Things-IoT.git">Learn more</a>
+            </div>
+            <div class="resources active-resource">
+                <i class="fa-brands fa-react"></i>
+                <h2> TextUtils </h2>
+                <p>This program can be used to change the user's given input to different forms using its different functional properties.</p>
+                <a href="https://grinder101.github.io/TextUtils/">Learn more</a>
+            </div>
+            <div class="resources" id="resource-1">
+                <i class="fa-brands fa-react"></i>
+                <h2> SignUpForm </h2>
+                <p>In this project I built a structure model of a SignUpForm using React framework.</p>
+                <a href="https://grinder101.github.io/SignUpForm/">Learn more</a>
+            </div>
+        </div>
+        <a href="#projects" class="btn1" onclick="openResource('resource-1')">See more</a>
+    </div>
+</div>
+
+<!-----------------------------------------------------(My Credentials)--------------------------------------------------------->
+
+<div id="credentials">
+    <div class="container">
+        <h2>My Credentials</h2>
+        <div class="credentials-list">
+            <div class="work">
+                <img src="Images/Bachelor-degree.jpg" alt="Bachelor-degree-pic">
+                <div class="layer">
+                    <h3>B.Eng Certificate</h3>
+                    <p>Completed my Bachelor from University of Portsmouth in Electronics</p>
+                    <a href="Images/Academic Qualification Certification.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/a-levels.png" alt="a-levels-pic">
+                <div class="layer">
+                    <h3>A-Level Certificate</h3>
+                    <p>Completed my A-Level in Science from Aditya Academy</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/other-credentials.jpg" alt="other-credentials-pic">
+                <div class="layer">
+                    <h3>Other Credentials</h3>
+                    <p>Completed a successful Project in AI</p>
+                    <a href="Images/AI Project.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------------------------------------------------(Contact-details)--------------------------------------------------------->
+
+<div id="contact-details">
+    <div class="container">
+        <div class="row">
+            <div class="contact-details-list-left">
+                <h2> My Contact-details </h2>
+                <p><i class="fa-solid fa-paper-plane"></i>Email:- Rittiksaha7044@gamil.com </p>
+                <p><i class="fa-solid fa-phone"></i>Phone-No:- +44 07552247527 </p>
+                <div class="social-media-sites">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rittik-saha-7191b01ba/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/GRINDER101"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="Images/CV-1.pdf" download class="btn btn2">Download my CV</a>
+            </div>
+            <div class="contact-details-list-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Type your name please" required>
+                    <input type="text" name="Email" placeholder="Type your email address please" required>
+                    <textarea name="Message" rows="10" placeholder="Please write your message here..."></textarea>
+                    <span id="message"> </span>
+                    <button type="submit" class="btn btn2"> Submit </button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> Rittik Saha</p>
+    </div>
+
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var contents = document.getElementsByClassName("about-col-2-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link')
+        }
+        for(content of contents){
+            content.classList.remove('active-content')
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-content")
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzIkx7W2MLIZKdbDTSbMoVZ9iBMMkfkLXClx1YZxHE7odBDYalzxhqgXD5BHqf1rZfV/exec'
+  const form = document.forms['submit-to-google-sheet']
+  var message = document.getElementById('message')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        message.innerHTML = '<i class="fa-solid fa-check"></i>' + " You've successfully sent your message"
+        setTimeout(function(){
+            message.innerHTML =  ""  
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+<script>
+
+    function openResource(resourcename){
+
+        event.currentTarget.classList.add("active-btn1")
+        document.getElementById(resourcename).classList.add("active-resource")
+
+    }
+</script>
+        
+</body>
+</html>
